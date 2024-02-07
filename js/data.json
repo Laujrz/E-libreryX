@@ -1,0 +1,283 @@
+[
+    {
+      "Id": 1,
+      "Nombre": "Alicia en el país de las maravillas",
+      "categoria": "infantiles",
+      "precio": 1000,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/69/75/69754b64c3f7a505908b6c9d1b8000a7.jpg",
+      "Cantidad" :1
+    },
+    {
+      "Id": 2,
+      "Nombre": "El señor de los anillos 'La comunidad'",
+      "categoria": "ficcion",
+      "precio": 4000,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/54/49/5449ba87a3e457a22dd6d0972b5c261e.jpg"
+    },
+    {
+      "Id": 3,
+      "Nombre": "Harry Potter y el misterio del príncipe",
+      "categoria": "fantasia",
+      "precio": 2000,
+      "imagen": "https://i.pinimg.com/236x/96/7a/92/967a9262e78069eb2d36c7aae7f0dd81.jpg"
+    },
+    {
+      "Id": 4,
+      "Nombre": "El Libro de la Selva",
+      "categoria": "infantiles",
+      "precio": 800,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/71/57/7157d0466b674bf4bfda989ceca6ff89.jpg"
+    },
+    {
+      "Id": 5,
+      "Nombre": "El Código Da Vinci",
+      "categoria": "Misterio",
+      "precio": 5000,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/ef/0f/ef0fe302954a688d71d2a988393ad609.jpg"
+    },
+    {
+      "Id": 6,
+      "Nombre": "Harry Potter y la Piedra Filosofal",
+      "categoria": "Fantasia",
+      "precio": 2000,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/ce/e6/cee6ef96dad70d3f599b953f0e50afc7.jpg"
+    },
+    {
+      "Id": 7,
+      "Nombre": "Mujer en Punto Cero",
+      "categoria": "Ficción",
+      "precio": 600,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/2d/3f/2d3ffa381a03476087d518a459cc13b7.jpg"
+    },
+    {
+      "Id": 8,
+      "Nombre": "El Arte de Amar",
+      "categoria": "Psicología",
+      "precio": 1500,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/fc/8d/fc8dbd623c6bfbb95e0b2dc0581750c9.jpg"
+    },
+    {
+      "Id": 9,
+      "Nombre": "Orgullo y prejuicio",
+      "categoria": "Clásico",
+      "precio": 1200,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/46/6b/466b0b47e932561b186c56358acbe55e.jpg"
+    },
+    {
+      "Id": 10,
+      "Nombre": "1984",
+      "categoria": "Ciencia Ficción",
+      "precio": 1800,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/b0/39/b039af065268818b7bd3b0e016f8db65.jpg"
+    },
+    {
+      "Id": 11,
+      "Nombre": "Cien años de soledad",
+      "categoria": "Realismo Mágico",
+      "precio": 2200,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/61/8d/618d227e8967274cd9589a549adff52d.jpg"
+    },
+    {
+      "Id": 12,
+      "Nombre": "Crónica de una muerte anunciada",
+      "categoria": "Ficción",
+      "precio": 1500,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/13/97/1397a4f28df5ed21f99177884f3276bd.jpg"
+    },
+    {
+      "Id": 13,
+      "Nombre": "Matar a un ruiseñor",
+      "categoria": "Ficción",
+      "precio": 1600,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/74/61/74616e2090e08508e87b37ed2e60df84.jpg"
+    },
+    {
+      "Id": 14,
+      "Nombre": "El Gran Gatsby",
+      "categoria": "Ficción",
+      "precio": 1700,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/53/71/5371a1e476100b2c7be95ddeef567d88.jpg"
+    },
+    {
+      "Id": 15,
+      "Nombre": "Don Quijote de la Mancha",
+      "categoria": "Clásico",
+      "precio": 2000,
+      "imagen": "https://i.ebayimg.com/images/g/2~IAAOSwpDBkyqAQ/s-l1600.webp"
+    },
+    {
+      "Id": 16,
+      "Nombre": "El principito",
+      "categoria": "Infantiles",
+      "precio": 800,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/f4/bc/f4bc25288107cfebe6a9cbc1e245c00a.jpg"
+    },
+    {
+      "Id": 17,
+      "Nombre": "To Kill a Mockingbird",
+      "categoria": "Ficción",
+      "precio": 1600,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/27/15/2715606a9939ead2a8acf92d54d83abf.jpg"
+    },
+    {
+      "Id": 18,
+      "Nombre": "The Catcher in the Rye",
+      "categoria": "Ficción",
+      "precio": 1400,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/e8/16/e81684f827211b35524ed1adf39bf4c2.jpg"
+    },
+    {
+      "Id": 19,
+      "Nombre": "Pride and Prejudice",
+      "categoria": "Clásico",
+      "precio": 1200,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/f4/b1/f4b1eadcb4df79ee6d76f935fcf86dcb.jpg"
+    },
+    {
+      "Id": 20,
+      "Nombre": "One Hundred Years of Solitude",
+      "categoria": "Realismo Mágico",
+      "precio": 2200,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/68/b7/68b7b18d568a5497d0028eb27076e070.jpg"
+    },
+    {
+      "Id": 21,
+      "Nombre": "Love in the Time of Cholera",
+      "categoria": "Romance",
+      "precio": 1800,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/68/3c/683cfa8d49e6865471cddc8affaf0c04.jpg"
+    },
+    {
+      "Id": 22,
+      "Nombre": "Fahrenheit 451",
+      "categoria": "Ciencia Ficción",
+      "precio": 1900,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/9e/39/9e3949c949c4abc1f69e2cce613532b1.jpg"
+    },
+    {
+      "Id": 23,
+      "Nombre": "The Great Gatsby",
+      "categoria": "Ficción",
+      "precio": 1700,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/e4/01/e401faaab2124ec3aeccf86467857807.jpg"
+    },
+    {
+      "Id": 24,
+      "Nombre": "Don Quixote",
+      "categoria": "Clásico",
+      "precio": 2000,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/30/6b/306be9aea301087e9d99d645c63f6b29.jpg"
+    },
+    {
+      "Id": 25,
+      "Nombre": "The Little Prince",
+      "categoria": "Infantiles",
+      "precio": 800,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/4f/db/4fdb8c53a59530aa5cb11c1f6aab6d4b.jpg"
+    },
+    {
+      "Id": 26,
+      "Nombre": "The Hobbit",
+      "categoria": "Fantasia",
+      "precio": 2200,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/45/44/4544aa9e50feca33c58b1d4646f34b2f.jpg"
+    },
+    {
+      "Id": 27,
+      "Nombre": "Moby-Dick",
+      "categoria": "Aventura",
+      "precio": 2000,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/b5/89/b589be02f650868192cc4bc0c876ea31.jpg"
+    },
+    {
+      "Id": 28,
+      "Nombre": "War and Peace",
+      "categoria": "Histórico",
+      "precio": 2500,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/43/4d/434dd79cc32b43317248c733cf5ae0f2.jpg"
+    },
+    {
+      "Id": 29,
+      "Nombre": "Crime and Punishment",
+      "categoria": "Misterio",
+      "precio": 1700,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/55/27/5527f9efda8f1efe32107609c1117ca8.jpg"
+    },
+    {
+      "Id": 30,
+      "Nombre": "Anna Karenina",
+      "categoria": "Romance",
+      "precio": 1800,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/42/be/42be3fae8b5074daefa9717ba1d3f983.jpg"
+    },
+    {
+      "Id": 31,
+      "Nombre": "The Odyssey",
+      "categoria": "Aventura",
+      "precio": 2100,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/3f/3c/3f3cf69b9a831796e4ef15175e8c8845.jpg"
+    },
+    {
+      "Id": 32,
+      "Nombre": "Les Misérables",
+      "categoria": "Histórico",
+      "precio": 2400,
+      "imagen": "https://image.cdn0.buscalibre.com/60e394828463b5f3158b4c90.__RS360x360__.jpg"
+    },
+    {
+      "Id": 33,
+      "Nombre": "Frankenstein",
+      "categoria": "Ciencia Ficción",
+      "precio": 1900,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/ab/f5/abf5ee57821882abcef8ab4e373d1f88.jpg"
+    },
+    {
+      "Id": 34,
+      "Nombre": "Jane Eyre",
+      "categoria": "Romance",
+      "precio": 1500,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/9b/4d/9b4d0c92dd7e99db4cfafad1cc33c5a8.jpg"
+    },
+    {
+      "Id": 35,
+      "Nombre": "Wuthering Heights",
+      "categoria": "Romance",
+      "precio": 1600,
+      "imagen": "https://images.cdn2.buscalibre.com/fit-in/360x360/dd/f0/ddf0526939034b9856e455981e33b399.jpg"
+    },
+    {
+      "Id": 36,
+      "Nombre": "Dracula",
+      "categoria": "Misterio",
+      "precio": 1800,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/76/dc/76dc4380329a0f6f3d38ae712e5407ac.jpg"
+    },
+    {
+      "Id": 37,
+      "Nombre": "The Picture of Dorian Gray",
+      "categoria": "Misterio",
+      "precio": 1700,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/68/90/6890e143707a96962a46dbda5cd7c7b1.jpg"
+    },
+    {
+      "Id": 38,
+      "Nombre": "Pippi Longstocking",
+      "categoria": "Infantiles",
+      "precio": 1200,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/2a/35/2a35038c70f24df17055d54d62f65a4e.jpg"
+    },
+    {
+      "Id": 39,
+      "Nombre": "The Jungle Book",
+      "categoria": "Infantiles",
+      "precio": 1000,
+      "imagen": "https://images.cdn1.buscalibre.com/fit-in/360x360/e0/53/e0534d63620c030e0ebdc750150c98ad.jpg"
+    },
+    {
+      "Id": 40,
+      "Nombre": "The Hound of the Baskervilles",
+      "categoria": "Misterio",
+      "precio": 2000,
+      "imagen": "https://images.cdn3.buscalibre.com/fit-in/360x360/6f/54/6f54431006d1a63bfe4ab027b6c39f2e.jpg"
+    }
+  ]

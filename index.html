@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <title>Tu Página</title>
+  <script src="https://kit.fontawesome.com/bd6e5f12f0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="transparent-header">
+            <h1 id="logo">E-LibraryX</h1>
+            <div>
+                <label for="buscador">Buscar Libro:</label>
+                <input type="text" id="buscador" placeholder="Ingrese el nombre del libro">
+            </div>
+      <div>
+        <ul id="menu">
+            <li><a href="#" id="guardar"><span id="cantidadGuardar" class="cantidad-guardado"></span><img src="./img/marcador.png" alt="Carrito" class="img-guardado"></a></li>
+            <li><a href="#" id="carrito"><span id="cantidadCarrito" class="cantidad-Carrito"></span><img src="./img/carrito-de-compras.png" alt="Carrito"  class="img-carrito" ></a></li>   
+        </ul>  
+      </div>
+
+  </header>
+      
+  <main>
+    <div class="banner">
+        <div class="banner-container">
+            <h1>Biblioteca digital</h1>
+            <p>Todo a tu alcance tan solo con un CLICK!</p>
+        </div>
+      </div>
+    <div id="resultados">
+      <!-- Aquí se mostrarán los resultados de la búsqueda -->
+    </div>
+    <div id="modal-container" class="modal-container">
+        <!-- Aquí se mostrara contenido del carrito -->
+    </div>    
+    
+  </main>
+  <script src="./js/data.json"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./js/libros.js"></script>
+  <script src="./js/carrito.js"></script>
+  <script src="./js/guardado.js"></script>
+</body>
+</html>

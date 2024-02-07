@@ -1,0 +1,278 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #182c18;
+}
+
+header {
+  background-color: #5a2f07;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+
+footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(./img/11045691_13320.jpg);
+  background-size: cover;
+
+}
+
+.container__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img{
+  width: 180px;
+}
+
+.box__footer .term{
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+  background-image:
+    url(./img/abundante-coleccion-libros-antiguos-estantes-madera-generados-ia.jpg);
+  background-color: black;
+  }
+
+.banner-container {
+  text-align: center;
+  padding: 15%;
+}
+
+.banner h1 {
+  margin: 0%;
+  color: white;
+  text-shadow: 13px 7px 7px black;
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.banner p {
+    font-size: 30px;
+    color: white;
+    opacity: 0.9;
+    text-shadow: 3px 4px 3px rgb(0, 0, 0);
+}
+#logo {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#buscador,
+#zoom {
+  margin: 5px; /* Puedes ajustar este valor según tu preferencia */
+  padding: 8px; /* Puedes ajustar este valor según tu preferencia */
+}
+
+#buscador {
+  width: 200px; /* Puedes ajustar este valor según tu preferencia */
+}
+
+.img-carrito,
+.img-guardado {
+  width: 40px;
+  transition: transform 0.3s ease-in-out;
+  padding-right: 40px;
+}
+
+.img-carrito:hover,
+.img-guardado:hover {
+  transform: scale(1.2); /* Ajusta el valor según sea necesario */
+}
+
+#resultados {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
+
+.producto {
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+}
+
+.producto img {
+  width: 100%;
+  height: 400px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.producto h2, .producto h3, .producto b {
+  margin: 0;
+}
+
+.producto button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: rgb(253, 253, 253);
+  background-color:  #478547;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 5px; 
+}
+
+.producto button:hover {
+  opacity: 0.9;
+}
+
+.modal-container {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: white;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* PARA QUE ESTE ARRIBA */
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a0909;
+  color: white;
+  width: 100%;
+}
+.transparent-header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Cambia el color de fondo y ajusta el valor alpha para controlar la transparencia */
+  backdrop-filter: blur(2px); /* Aplica un efecto de desenfoque al fondo */
+  padding: 20px; /* Ajusta el relleno según sea necesario */
+  z-index: 100; 
+  font-weight:bolder;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.906); /* Opcional: añade una sombra si deseas separar el encabezado de la imagen de fondo */
+}
+
+
+.modal-header-title {
+  justify-self:start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container > .modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total- content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.delete-product {
+  cursor: pointer;
+}
+.cantidad-guardado{
+  background-color: rgb(214, 214, 214);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+.cantidad-carrito {
+  background-color: rgb(214, 214, 214);
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+
+.sumar {
+  cursor: pointer;
+}
+
+.restar {
+  cursor: pointer;
+}
